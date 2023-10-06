@@ -1,0 +1,10 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #fff;
+    max-width: 984px;
+    padding: 92px 0;
+    box-sizing: border-box;
+    margin: auto;
+}
