@@ -5,7 +5,6 @@
     align-items: center;
     row-gap: 32px;
     position: relative;
-    max-width: 1184px;
     height: 740px;
 
     background-image: url("../../../images/cover-trains.jpg");
@@ -32,4 +31,10 @@
 
 .cover__overlay:hover:before{
     background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        height: 640px;
+    }
 }
