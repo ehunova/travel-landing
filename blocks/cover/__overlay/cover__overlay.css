@@ -2,13 +2,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 32px;
     align-items: center;
-    height: 100%;
+    row-gap: 32px;
+    position: relative;
+    max-width: 1184px;
+    height: 740px;
+
     background-image: url("../../../images/cover-trains.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-size: contain;
+    background-position: center;
+
     text-align: center;
     text-decoration: none;
     color: #fff;
