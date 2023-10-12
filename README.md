@@ -6,8 +6,7 @@
 как для организации файловой структуры, так и для описания классов в стилях.
 
 ## Демо
-Проект размещен на сервере Github и доступен для просмотра по ссылке:
-* 
+Проект размещен на сервере Github и доступен для просмотра по [ссылке](https://ehunova.github.io/travel-landing/)
 
 ## Описание проекта
 ### Цель
@@ -34,11 +33,11 @@
 ## Инструкции по развертыванию
 1. Клонируйте репозиторий на свой локальный компьютер:
   ```
-  git clone git@github.com:ehunova/russian-travel-bootcamp
+  git clone git@github.com:ehunova/travel-landing
   ```
 2. Откройте файл `index.html` в вашем веб-браузере:
   ```
-  cd russian-travel-bootcamp
+  cd travel-landing
   open index.html
   ```
 
