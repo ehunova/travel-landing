@@ -4,12 +4,22 @@
     align-items: start;
     color: #fff;
     max-width: 984px;
-    padding: 92px 0;
-    margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1040px) {
     .intro {
         max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .intro {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .intro {
+        max-width: 288px;
     }
 }

@@ -6,3 +6,11 @@
     font-weight: 900;
     line-height: 58px;
 }
+
+@media screen and (max-width: 560px) {
+    .intro__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -2,9 +2,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     max-width: 1184px;
     height: 18px;
     color: #fff;
-    padding: 92px 48px 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+        align-items: start;
+        height: 100%;
+    }
 }

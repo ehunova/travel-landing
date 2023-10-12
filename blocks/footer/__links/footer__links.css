@@ -3,4 +3,12 @@
     gap: 18px;
     list-style-type: none;
     padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__links {
+        flex-direction: column;
+        gap: 32px;
+    }
 }

@@ -5,3 +5,9 @@
     margin: 0;
     gap: 18px;
 }
+
+@media screen and (max-width: 400px) {
+    .header__lang {
+        padding: 14px 0 8px;
+    }
+}

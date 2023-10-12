@@ -7,3 +7,19 @@
     line-height: 22px;
     z-index: 1;
 }
+
+@media screen and (max-width: 720px) {
+    .cover__subtitle {
+        max-width: 500px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .cover__subtitle {
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

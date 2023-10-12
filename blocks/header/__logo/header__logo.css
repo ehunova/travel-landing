@@ -5,3 +5,10 @@
     fill: #fff;
     margin: 0;
 }
+
+@media screen and (max-width: 400px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}

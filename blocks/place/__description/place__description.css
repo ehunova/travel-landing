@@ -4,3 +4,16 @@
     justify-content: start;
     gap: 26px;
 }
+
+@media screen and (max-width: 820px) {
+    .place__description {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .place__description {
+        max-width: 288px;
+        padding-left: 16px;
+    }
+}
