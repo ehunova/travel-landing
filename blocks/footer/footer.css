@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1184px;
-    height: 18px;
     color: #fff;
 }
 
@@ -13,6 +12,5 @@
         justify-content: space-between;
         gap: 48px;
         align-items: start;
-        height: 100%;
     }
 }
