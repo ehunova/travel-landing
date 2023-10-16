@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 560px) {
     .place__description {
-        max-width: 288px;
         padding-left: 16px;
+        padding-right: 16px;
     }
 }
